@@ -1,6 +1,7 @@
+require 'pry'
 ENV["ACTIVE_RECORD_ENV"] = "test"
-
 require_relative '../config/environment'
+# binding.pry
 
 RSpec.configure do |config|
 

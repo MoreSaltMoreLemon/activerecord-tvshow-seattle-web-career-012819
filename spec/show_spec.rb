@@ -1,4 +1,5 @@
 require_relative 'spec_helper'
+require 'pry'
 
 describe Show do
 
@@ -36,6 +37,7 @@ describe Show do
 
   describe "::highest_rating" do
     it "returns the TV show with the highest rating" do
+      # binding.pry
       expect(Show.highest_rating).to eq(10)
     end
   end
